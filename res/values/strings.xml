@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">爱创</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_initial">InitialActivity</string>
+    <string name="text_init_btn">开启爱创之旅</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register_ai_chuang">RegisterAiChuangActivity</string>
+    <string name="title_activity_zxing">ZxingActivity</string>
+
+    <string name="back">返回</string>
+    <string name="send">发送</string>
+    
+    <string-array name="StrList">
+        <item>13天以内的泰国，台湾，马来西亚，越南</item>
+        <item>美亚万国游踪旅游保险-钻石计划  22 </item>
+        <item>14天以上的泰国，台湾，马来西亚，越南  安联东南亚旅行保障计划28</item>
+        <item>日本，韩国安联安途亚洲旅行保障计划28</item>
+        <item>http://wap.zhongmin.cn/AutoRedirect_1.aspx?url=http://m.zh</item>
+        <item>http://wap.zhongmin.cn/AutoRedirect_1.aspx?url=http://m.zh</item>
+        <item>http://wap.zhongmin.cn/AutoRedirect_1.aspx?url=http://m.z</item>
+        <item>6.Ctrl＋F7可以查询当前元素在当前文件中的引用，然后按F3可以选择</item>
+        <item>11.Alt＋F1可以将正在编辑的元素在各个面板中定位</item>
+        <item>15.Ctrl＋Alt＋V 可以引入变量。例如把括号内的SQL赋成一个变量</item>
+    </string-array>
+
+</resources>

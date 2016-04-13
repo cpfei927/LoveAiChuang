@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <com.aic.loveaichuang.view.ViewPagerNoScroll
+            android:id="@+id/mainViewPager"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <RadioGroup
+            android:id="@+id/main_RadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/color_000000"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/rb_bg_selector_home"
+                android:gravity="center"
+                android:paddingTop="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/rb_bg_selector_discover"
+                android:gravity="center"
+                android:paddingTop="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/rb_bg_selector_add"
+                android:gravity="center"
+                android:paddingTop="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/rb_bg_selector_more"
+                android:gravity="center"
+                android:paddingTop="8dp" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/rb_bg_selector_me"
+                android:gravity="center"
+                android:paddingTop="8dp" />
+        </RadioGroup>
+    </LinearLayout>
+
+</RelativeLayout>
